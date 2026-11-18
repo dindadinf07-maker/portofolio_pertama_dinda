@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio DindaNF</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <h3>
+                <a href="#beranda">Beranda</a> 
+                <a href="#pengalaman">Pengalaman</a>  
+                <a href="#proyek">Proyek</a>
+                <a href="#keahlian">Keahlian</a>
+                <a href="#pendidikan">Pendidikan</a>
+                <a href="#kontak">Kontak</a>
+                </h3>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <hr>
+        <section id="beranda">
+            <div class="content-wrapper">
+                <div class="left">
+                    <img src="gambar/dinda_kema.jpeg" alt="dirmawa" width="150">
+                    <a href="cv_dinda.pdf" target="_blank">
+                        <button type="button">Lihat CV Dinda!</button>
+                    </a>
+                    <h3>˚✧˖𓍢ִ໋🍃✧˚.⋆💚⋆.˚✧˖𓍢ִ໋🍃✧˚ </h3>
+                </div>
+                <div class="right">
+                    <h1 style="color: green;text-align: center;">Dinda Nurul Fadila🍀</h1>
+                    <h2>Mahasiswi Pendidikan & Web Developer Pemula</h2>
+                    <p>Mahasiswi UPI dari program studi Pendidikan Ilmu Komputer yang memiliki pengalaman di bidang administrasi organisasi serta pengabdian pada masyarakat. Secara pribadi, saya adalah individu yang reflektif serta terbuka terhadap kritik dan masukan sebagai sarana pengembangan diri. Saya memiliki rasa ingin tahu yang tinggi, senang mencoba hal baru, serta memiliki ketertarikan untuk berkontribusi di bidang pendidikan dan pelayanan masyarakat.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="pengalaman">
+            <h2>Pengalaman🌿</h2>
+            <p>Pengalaman belajar dan organisasi:</p>
+
+            <div class="pengalaman-leppim">
+                <button class="btn-panah prev" onclick="geserSlide(this, -1)">❮</button>
+                    <div class="foto-leppim">
+                        <img src="gambar/leppim.jpg" alt="">
+                        <img src="gambar/leppim-0.jpg" alt="">
+                        <img src="gambar/leppim-1.jpg" alt="">
+                        <img src="gambar/leppim-2.jpg" alt="">
+                        <img src="gambar/leppim-4.jpg" alt="">
+                        <img src="gambar/leppim-3.jpg" alt="">
+                    </div>
+                    <button class="btn-panah next" onclick="geserSlide(this, 1)">❯</button>
+                <div class="right-leppim">
+                    <h3>LEPPIM UPI</h3>
+                    <p class="jabatan">Staff DP2M</p>
+                    <p>Terlibat dalam banyak program kerja dan belajar banyak dari pengalaman menjadi koor acara, humas, konsumsi, dan dana usaha.</p>
+                </div>
+            </div>
+
+            <div class="pengalaman-kema">
+                <button class="btn-panah prev" onclick="geserSlide(this, -1)">❮</button>
+                <div class="foto-kema">
+                    <img src="gambar/kema-0.jpg" alt="">
+                    <img src="gambar/kema.jpg" alt="">
+                    <img src="gambar/kema-1.jpg" alt="">
+                </div>
+                <button class="btn-panah next" onclick="geserSlide(this, 1)">❯</button>
+                <div class="right-kema">
+                    <h3>BEM KEMA FPMIPA UPI</h3>
+                    <p class="jabatan">Staff Bidang Adkesma</p>
+                    <p>Sedikitnya belajar bagaimana advokasi di kampus berjalan.</p>
+                </div>
+            </div>
+            <div class="pengalaman-eksternal">
+                <button class="btn-panah prev" onclick="geserSlide(this, -1)">❮</button>
+                <div class="foto-eksternal">
+                    <img src="gambar/eksternal-0.jpg" alt="">
+                    <img src="gambar/eksternal.jpg" alt="">
+                </div>
+                <button class="btn-panah next" onclick="geserSlide(this, 1)">❯</button>
+                <div class="right-eksternal">
+                    <h3>Sosial Project Eksternal</h3>
+                    <p class="jabatan">Kadiv logistik</p>
+                    <p>Sosial project luar kampus pertama, sangat melekat di ingatan karena masih baru dan tak ada senior yang membimbing.</p>
+                </div>
+            </div>
+            <div class="pengalaman-pmr">
+                <button class="btn-panah prev" onclick="geserSlide(this, -1)">❮</button>
+                <div class="foto-pmr">
+                    <img src="gambar/pmr.jpg" alt="">
+                    <img src="gambar/pmr-0.jpg" alt="">
+                    <img src="gambar/pmr-1.jpg" alt="">
+                </div>
+                <button class="btn-panah next" onclick="geserSlide(this, 1)">❯</button>
+                <div class="right-pmr">
+                    <h3>Palang Merah Remaja</h3>
+                    <p class="jabatan">Sekretaris</p>
+                    <p>Sempat mengikuti PMR di tingkat Wira dan Madya hingga membawa pulang piala ke sekolah.</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="proyek">
+            <h2>Proyek🌿</h2>
+            <p>Beberapa proyek yang dikerjakan Dinda:</p>
+            <div class="proyek">
+                <article>
+                    <h3>Website Portofolio</h3>
+                    <img src="gambar/web.png" alt="" width="290px">
+                    <p>link: <a href="portofolio.html" target="_blank">Lihat proyek</a></p>
+                </article>
+
+                <article>
+                    <h3>Video pembelajaran</h3>
+                    <img src="gambar/videoBelajar.png" alt="" width="250">
+                     <p>link: <a href="https://youtube.com/@dindanurul9181?si=WGoRfNR_TUuhhCNQ" target="_blank">Lihat proyek</a></p>
+                </article>
+
+                <article>
+                    <h3>Program pendataan kesehatan donor darah</h3>
+                    <img src="gambar/tubes.png" alt="" width="260">
+                    <p>link: <a href="https://github.com/dindadinf07-maker/Tubes-ALPRO-Dinda.git" target="_blank">Lihat proyek</a></p>
+                </article>
+
+                <article>
+                    <h3>Web Belajar Kalkulus</h3>
+                    <img src="gambar/kalkulus.png" alt="" width="260">
+                    <p>link: <a href="https://the-word-of-calculus-1.netlify.app/" target="_blank">Lihat proyek</a></p>
+                </article>
+            </div>
+        </section>
+        <hr>
+        <section id="keahlian">
+            <h2>Keahlian 🌿</h2>
+            <p class="intro-keahlian">Bismillah, berikut adalah keahlian Dinda:</p>
+            <div class="keahlian-buttons">
+                <button class="skill-btn">📋 Administrasi Organisasi</button>
+                <button class="skill-btn">💻 Microsoft Office</button>
+                <button class="skill-btn">🌱 Growth Mindset</button>
+                <button class="skill-btn">🤝 Kerjasama Tim</button>
+                <button class="skill-btn">🤖 Bahasa Pemrograman</button>
+                <button class="skill-btn">🗣️ Bahasa Inggris Intermediate</button>
+            </div>
+        </section>
+        <hr>
+        <section id="pendidikan">
+            <h2>Pendidikan🌿</h2>
+            <div class="pendidikan">
+                <article>
+                    <h3>UPI</h3>
+                    <img src="gambar/UPI.png" alt="" width="190">
+                    <h4>2025-sekarang</h4>
+                    <p>Sedang menjalani studi S1 di Universitas Pendidikan Indonesia dengan program studi Pendidikan Ilmu Komputer.</p>
+                </article>
+
+                <article>
+                    <h3>SMAN 10 Garut</h3>
+                    <img src="gambar/SMA.jpg" alt="" width="200">
+                    <h4>2022-2025</h4>
+                    <p>Telah lulus dari SMAN 10 Garut dengan mata pelajaran pilihan Matematika Tingkat Lanjut dan Bahasa Inggris Tingkat Lanjut.</p>
+                </article>
+            </div>
+        </section>
+        <hr>
+        <section id="kontak">
+            <h2>kontak dan Media Sosial</h2>
+            <div class="medsos">
+                <a href="mailto:dindadinf@gmail.com" target="_blank" class="logo-btn" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/dinda-nurul-fadila-919511344" target="_blank" class="logo-btn" title="LinkedIn">
+                    <i class="fa-brands fa====-linkedin-in"></i>
+                </a>
+
+                <a href="https://github.com/dindadinf07-maker" target="_blank" class="logo-btn" title="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://instagram.com/dindadinf" target="_blank" class="logo-btn" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+
+            <h3>Kirim Pesan 📩</h3>
+            <form id="frm">
+                <p>
+                    <label for="nama">Nama Lengkap</label><br>
+                    <input type="text" id="nama" name="nama">
+                </p>
+                <p>
+                    <label for="email">Alamat email</label><br>
+                    <input type="email" id="email">
+                    <script>
+                        const email = document.getElementById("email");
+                        // Real-time validasi
+                        email.oninput = function() {
+                        if (email.value.includes("@")) {
+                            email.style.borderColor = "green";
+                        } else {
+                            email.style.borderColor = "red";
+                        }
+                        };
+                    </script>
+                </p>
+                <p>
+                    <label for="pesan">Pesan</label>
+                    <br>
+                    <textarea name="pesan" id="pesan"></textarea>
+                </p>
+                <button type="submit">Kirim pesan pada Dindanf</button>
+                <h4>˚✧˖𓍢ִ໋🍃✧˚.⋆💚⋆.˚✧˖𓍢ִ໋🍃✧˚ </h4>
+            </form>
+            <p id="status"></p>
+            <script>
+                const form = document.getElementById("frm");
+                const status = document.getElementById("status");
+                form.onsubmit = function(e) {
+                e.preventDefault();
+                const inputs = form.querySelectorAll("input, textarea");
+                let adaKosong = false;
+                inputs.forEach(input => {
+                if (input.value.trim() === "") {
+                    adaKosong = true;
+                    }
+                });
+                if (adaKosong) {
+                    status.textContent = "Harap isi semua kolom!";
+                    status.style.color = "red";
+                } else {
+                    status.textContent = "Pesan terkirim!";
+                    status.style.color = "green";
+                    form.reset();
+                }
+                };
+            </script>
+        </section>
+    </main>
+    <footer>
+        <h3>Navigasi Cepat 🧭</h3>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#pengalaman">Pengalaman</a></li>
+            <li><a href="#proyek">Proyek</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#pendidikan">Pendidikan</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <p><b>&copy; 2026 Dindanf. Semua hak cipta dilindungi.</b></p>
+    </footer>
+    <script>
+        function geserSlide(button, arah) {
+        const galeri = button.parentElement;
+        const slider = galeri.querySelector('.foto-leppim, .foto-kema, .foto-eksternal, .foto-pmr');
+        if (slider) {
+            slider.scrollBy({
+            left: 250 * arah,
+            behavior: 'smooth'
+            });
+        }
+        }
+    </script>
+</body>
+</html>
